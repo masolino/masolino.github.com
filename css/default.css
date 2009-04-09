@@ -1,0 +1,26 @@
+h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.twitter, .flickr, .delicious {
+  margin-top: 1em;
+  border-top:2px solid #000000;
+}
+
+.twitter #twitter_update_list, .flickr .photos, .delicious .bookmarks {
+  margin: 1em 0 0 0;
+}
+
+.twitter #twitter_update_list li {
+  list-style-type: none;
+  margin-bottom: 1.5em;
+}
+
+.flickr img {
+  margin:0 15px 15px 0;
+  float: left;
+}
+.delicious ul li {
+  margin-bottom: 1em;
+}
