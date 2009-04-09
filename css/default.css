@@ -24,3 +24,6 @@ h1 {
 .delicious ul li {
   margin-bottom: 1em;
 }
+.signature {
+  text-align: right;
+}
