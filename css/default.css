@@ -1,11 +1,23 @@
+.header {
+  border-bottom:1px solid #000;
+}
+
+.content {
+  padding-bottom: 2em;
+}
+
 h1 {
   font-weight: bold;
-  letter-spacing: -1px;
+  letter-spacing: -1.3px;
 }
 
 .twitter, .flickr, .delicious {
   margin-top: 1em;
-  border-top:2px solid #000000;
+}
+
+.origin_uri a {
+  color: #999;
+  text-decoration: none;
 }
 
 .twitter #twitter_update_list, .flickr .photos, .delicious .bookmarks {
@@ -17,13 +29,50 @@ h1 {
   margin-bottom: 1.5em;
 }
 
-.flickr img {
-  margin:0 15px 15px 0;
-  float: left;
-}
 .delicious ul li {
   margin-bottom: 1em;
 }
 .signature {
   text-align: right;
+}
+
+.gallery_divider {
+  padding: 1em 0;
+  border-top: 5px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+h3 {
+  font-size:2em;
+  font-weight:bold;
+  letter-spacing:-1.3px;
+  margin:0.5em 0 1em;
+}
+
+.flickr ul, .people ul, .places ul, .things ul {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin: 0;
+}
+.flickr ul li, .people ul li, .places ul li, .things ul li {
+  display: inline;
+  width: 82px;
+  
+}
+
+.flickr ul li img, .people ul li img, .places ul li img, .things ul li img {
+  background-color:#eee;
+  border:1px solid #8A999B;
+  float:left;
+  margin:0 8px 8px 0;
+  padding:3px;
+}
+
+.flickr ul li img:hover, .people ul li img:hover, .places ul li img:hover, .things ul li img:hover {
+  background-color:#C1CBCC;
+}
+
+.footer {
+  padding: 1em 0;
 }
