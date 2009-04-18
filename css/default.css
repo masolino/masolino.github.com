@@ -11,13 +11,16 @@ h1 {
   letter-spacing: -1.3px;
 }
 
-.twitter, .flickr, .delicious {
-  margin-top: 1em;
+h3 a {
+  color:#999999;
+  font-size:0.5em;
+  font-weight:normal;
+  letter-spacing:0;
+  text-decoration:none;
 }
 
-.origin_uri a {
-  color: #999;
-  text-decoration: none;
+.twitter, .flickr, .delicious {
+  margin-top: 1em;
 }
 
 .twitter #twitter_update_list, .flickr .photos, .delicious .bookmarks {
