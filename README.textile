@@ -1,5 +1,3 @@
 h1. This is the data for my site
 
 See "GithubPages":http://pages.github.com/ for more.
-
-Now on experimental branch
