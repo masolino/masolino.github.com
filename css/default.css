@@ -79,3 +79,10 @@ h3 {
 .footer {
   padding: 1em 0;
 }
+
+img.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}

@@ -267,3 +267,4 @@ h3 {font-size:2em;font-weight:bold;letter-spacing:-1.3px;margin:0.5em 0 1em;}
 .flickr ul li img, .people ul li img, .places ul li img, .things ul li img {background-color:#eee;border:1px solid #8A999B;float:left;margin:0 8px 8px 0;padding:3px;}
 .flickr ul li img:hover, .people ul li img:hover, .places ul li img:hover, .things ul li img:hover {background-color:#C1CBCC;}
 .footer {padding:1em 0;}
+img.ribbon {position:absolute;top:0;right:0;border:0;}
