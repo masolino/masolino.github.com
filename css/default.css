@@ -1,3 +1,8 @@
+body {
+  background:#98ADAE url(../images/body_gradient.png) repeat-x scroll 0 0;
+  text-shadow: rgb(187, 187, 187) 1px 1px 1px;
+}
+
 .header {
   border-bottom:1px solid #000;
 }
@@ -19,8 +24,14 @@ h3 a {
   text-decoration:none;
 }
 
-.twitter, .flickr, .delicious {
-  margin-top: 1em;
+.twitter a, .flickr a, .delicious a {
+  border-bottom:1px dotted #666666;
+  color:#000000;
+  text-decoration:none;
+}
+
+.twitter a:hover, .flickr a:hover, .delicious a:hover {
+  background: #eee;
 }
 
 .twitter #twitter_update_list, .flickr .photos, .delicious .bookmarks {
