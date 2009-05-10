@@ -10,21 +10,21 @@ jQuery(function(){
   jQuery(".people").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157616951793154',
+    photoset_id: '72157613427796892',
     thumb_size: 's',
     size: 'b'
   });
   jQuery(".places").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157616861665933',
+    photoset_id: '72157617650746490',
     thumb_size: 's',
     size: 'b'
   });
   jQuery(".things").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157616951751114',
+    photoset_id: '72157616886156036',
     thumb_size: 's',
     size: 'b'
   });
