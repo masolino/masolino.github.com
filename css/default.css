@@ -24,17 +24,17 @@ h3 a {
   text-decoration:none;
 }
 
-.twitter a, .flickr a, .delicious a {
+.twitter a, .flickr a, .pinboard a {
   border-bottom:1px dotted #666666;
   color:#000000;
   text-decoration:none;
 }
 
-.twitter a:hover, .flickr a:hover, .delicious a:hover {
+.twitter a:hover, .flickr a:hover, .pinboard a:hover {
   background: #eee;
 }
 
-.twitter #twitter_update_list, .flickr .photos, .delicious .bookmarks {
+.twitter #twitter_update_list, .flickr .photos, .pinboard .bookmarks {
   margin: 1em 0 0 0;
 }
 
@@ -43,7 +43,7 @@ h3 a {
   margin-bottom: 1.5em;
 }
 
-.delicious ul li {
+.pinboard ul li {
   margin-bottom: 1em;
 }
 .signature {
