@@ -11,25 +11,25 @@ jQuery(function(){
   jQuery(".people").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157613427796892',
+    photoset_id: '72157627733696092',
     thumb_size: 's',
-    per_page: 12,
-    sort: "date-posted-desc"
+    per_page: 12
+    // sort: "date-posted-desc"
   });
   jQuery(".places").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157617650746490',
+    photoset_id: '72157627609829199',
     thumb_size: 's',
-    per_page: 12,
-    sort: "date-posted-desc"
+    per_page: 12
+    // sort: "date-posted-desc"
   });
   jQuery(".things").flickr({
     api_key: "bbf6a46e7e65a5022da9cae9355ed1a3",
     type: 'photoset',
-    photoset_id: '72157616886156036',
+    photoset_id: '72157627609857411',
     thumb_size: 's',
-    per_page: 12,
-    sort: "date-posted-desc"
+    per_page: 12
+    // sort: "date-posted-desc"
   });
 });
